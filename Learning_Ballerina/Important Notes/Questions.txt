@@ -9,3 +9,5 @@
 5. range expressions  |   Iterable Objects
 
 6. Stream
+
+7. Different between batch execute and parameterized queriessss
