@@ -1,0 +1,3 @@
+1. Retry Transaction(Method nama)
+
+2. Trap eka error nathi eka saha trap nathi unama wenasa

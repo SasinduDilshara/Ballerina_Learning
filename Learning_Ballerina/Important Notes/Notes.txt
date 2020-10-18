@@ -1,0 +1,15 @@
+Ballerina services come with built-in concurrency. Every request to a resource method is handled in a separate strand (Ballerina concurrent unit), which gives implicit concurrent behavior to a service.
+
+Ballerina does not allow ignoring the return value of a function
+ invocation implicitly unless the return type is (). A return value can be ignored
+ using _ if the value may never be an error (i.e., the return type of the
+ function does not contain error
+
+Main function may return a error or ()
+
+
+Ballerina programs operate on a universe of values and each value belongs to only one basic type such as int, boolean, map, record, function etc. There are three kinds of values corresponding to three kinds of basic types. They are simple values (e.g., int, string, boolean), structured values (e.g., record, map, array), and behavioral values (e.g., function, object). Simple values belong to one of the simple basic types, namely nil, boolean, int, float, decimal, and string.
+
+
+Failover
+Ballerina users can configure multiple backends in a given failover config. If the client looses the connection by the server being shut down or by getting any IOExceptions, Ballerina automatically tries to connect with the remaining backends that are specified in the configuration. The trying happens only once for each of the backends

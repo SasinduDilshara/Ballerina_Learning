@@ -1,0 +1,11 @@
+1. Ballerina guide - http_web_socket eke ara url /ws kynne mokadda
+
+2. Quoted Identifiers wala first\name eka record["first name] kyla thiyenne.
+
+3. Need to clarify about isolated funcs
+
+4. Bytes arr didnt understand
+
+5. range expressions  |   Iterable Objects
+
+6. Stream
